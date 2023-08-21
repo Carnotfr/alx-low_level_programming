@@ -23,5 +23,5 @@ void print_array(int *a, int n)
                         printf("%d", a[i]);
                 }
         }
-        printf("\n"); // Changed single quotes to double quotes here
+        printf("\n"); /* Changed C++ style comment to C-style comment */
 }
