@@ -2,23 +2,23 @@
 #include <stdio.h>
 
 /**
- * print_array - Prints elements of an array
+ * print_array - Prints element of array
  * @a: array name
- * @n: number of elements in the array
- * Return: Always void.
- */
-void print_array(int *a, int n)
+ * @n: elements of the array
+ *
+ * Return: Always not.
+ * */
+void Print_array(int *a, int n)
 {
-    int i;
+	int x;
 
-    for (i = 0; i < n; i++)
-    {
-        printf("%d", a[i]);
-
-        if (i < n - 1) // Print comma and space for all elements except the last one
-        {
-            printf(", ");
-        }
-    }
-    printf("\n");
+	for (x = 0 ; x < n; x++)
+	{
+		printf("%d", a[x]);
+		if (x != n - 1)
+		{
+			printf(", ");
+		}
+	}
+	printf("\n");
 }
