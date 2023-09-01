@@ -28,5 +28,3 @@ If you haven't implemented all of the above functions, create empty ones with th
 
 Task 1: Without Libraries, What Have We?
 Description: Create a script called create_static_lib.sh that generates a static library named liball.a from all the .c files in the current directory.
-
-Feel free to adjust this overview to fit the structure and content of your repository. It serves as a guide for readers to navigate through the challenges and their descriptions.
