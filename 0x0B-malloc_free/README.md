@@ -1,0 +1,2 @@
+C Programming Challenges Repository: 0x0B-malloc_free
+Welcome to the C Programming Challenges Repository! This repository contains a series of programming exercises aimed at enhancing your skills in dynamic memory allocation and deallocation in the C programming language. Each challenge focuses on specific aspects of memory management, allowing you to build a deeper understanding of these essential concepts.
