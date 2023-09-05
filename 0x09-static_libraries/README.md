@@ -1,30 +1,29 @@
-C Programming Challenges Repository: 0x09-static_libraries
-Welcome to the C Programming Challenges Repository! This repository contains a series of programming exercises aimed at enhancing your skills in working with static libraries in the C programming language. Each challenge focuses on specific aspects of creating and using static libraries, enabling you to build a deeper understanding of this fundamental concept.
+C Programming Challenges Repository: 0x09-static-libraries
+Welcome to the C Programming Challenges Repository! This repository contains a series of programming exercises aimed at enhancing your skills in working with static libraries in the C programming language.
+Task 0: Create a Static Library
+Description: In this task, you are required to create a static library named libmy.a. This library contains various functions listed below:
 
-Task 0: A Library Is Not a Luxury but One of the Necessities of Life
-Description: Create a static library named libmy.a that includes the following functions:
+int _putchar(char c);
+int _islower(int c);
+int _isalpha(int c);
+int _abs(int n);
+int _isupper(int c);
+int _isdigit(int c);
+int _strlen(char *s);
+void _puts(char *s);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
+If you haven't implemented all of the above functions, create empty ones with the correct prototypes. Ensure that your main.h file contains prototypes for all these functions.
 
-_putchar
-_islower
-_isalpha
-_abs
-_isupper
-_isdigit
-_strlen
-_puts
-_strcpy
-_atoi
-_strcat
-_strncat
-_strncpy
-_strcmp
-_memset
-_memcpy
-_strchr
-_strspn
-_strpbrk
-_strstr
-If you haven't implemented all of the above functions, create empty ones with the correct prototypes. Don't forget to push your main.h file to the repository, which should contain all the prototypes of the listed functions.
-
-Task 1: Without Libraries, What Have We?
-Description: Create a script called create_static_lib.sh that generates a static library named liball.a from all the .c files in the current directory.
+Task 1: Create a Script to Generate a Static Library
+Description: In this task, you need to create a script called create_static_lib.sh. This script will generate a static library called liball.a from all the .c files present in the current directory.
