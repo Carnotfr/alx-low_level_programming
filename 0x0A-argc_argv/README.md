@@ -1,0 +1,17 @@
+Project: 0x0A-argc_argv
+Task 0: It ain't what they call you, it's what you answer to
+Description: Write a program that prints its name, followed by a new line. If you rename the program, it will print the new name without having to compile it again. You should not remove the path before the name of the program.
+
+Task 1: Silence is argument carried out by other means
+Description: Write a program that prints the number of arguments passed into it. Your program should print a number, followed by a new line.
+
+Task 2: The best argument against democracy is a five-minute conversation with the average voter
+Description: Write a program that prints all arguments it receives. All arguments should be printed, including the first one. Only print one argument per line, ending with a new line.
+
+Task 3: Neither irony nor sarcasm is argument
+Description: Write a program that multiplies two numbers. Your program should print the result of the multiplication, followed by a new line. If the program does not receive two arguments, your program should print "Error," followed by a new line, and return 1.
+
+Task 4: To infinity and beyond
+Description: Write a program that adds positive numbers. Print the result, followed by a new line. If no number is passed to the program, print 0, followed by a new line. If one of the numbers contains symbols that are not digits, print "Error," followed by a new line, and return 1.
+
+Each task represents a different aspect of working with command-line arguments and basic arithmetic operations in C.
